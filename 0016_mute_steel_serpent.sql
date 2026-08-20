@@ -1,0 +1,1 @@
+ALTER TABLE `studyJournalEntries` ADD `questionsJson` text DEFAULT ('[]') NOT NULL;

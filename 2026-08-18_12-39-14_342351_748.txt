@@ -1,0 +1,163 @@
+# Terminal Full Output
+# Terminal: study-journal-flexible-writing-structure-debug
+# Command: cd /home/ubuntu/tonan-study && pnpm exec tsx /home/ubuntu/study_journal_flexible_writing_smoke.ts
+# PID: 748
+# Timestamp: 2026-08-18_12-39-14.342351
+# Original Length: 8801 characters
+# ----------------------------------------
+
+[32mubuntu@sandbox:~$ [0mcd /home/ubuntu/tonan-study && pnpm exec tsx /home/ubuntu/study_journal_flexible_writing_smoke.ts
+[43m[33m[[39m[49m[43m[30mWARN[39m[49m[43m[33m][39m[49m The "pnpm" field in package.json is no longer read by pnpm. The following keys were ignored: "pnpm.patchedDependencies", "pnpm.overrides". See https://pnpm.io/settings for the new home of each setting.
+[StudyJournal] invalid quiz structure {
+  category: [32m'kanji'[39m,
+  expectedCount: [33m6[39m,
+  count: [33m6[39m,
+  uniqueIds: [33m6[39m,
+  invalidQuestion: [33mtrue[39m,
+  invalidWritingTask: [33mfalse[39m,
+  validSet: [33mtrue[39m,
+  details: [
+    {
+      id: [32m'q1'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'comprehension'[39m,
+      choices: [33m4[39m,
+      evidenceInPassage: [33mtrue[39m,
+      task: [36m[Object]
+[39m    },
+    {
+      id: [32m'q2'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'comprehension'[39m,
+      choices: [33m4[39m,
+      evidenceInPassage: [33mtrue[39m,
+      task: [36m[Object]
+[39m    },
+    {
+      id: [32m'q3'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'comprehension'[39m,
+      choices: [33m4[39m,
+      evidenceInPassage: [33mtrue[39m,
+      task: [36m[Object]
+[39m    },
+    {
+      id: [32m'q4'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'reading'[39m,
+      choices: [33m4[39m,
+      evidenceInPassage: [33mtrue[39m,
+      task: [36m[Object]
+[39m    },
+    {
+      id: [32m'q5'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'meaning'[39m,
+      choices: [33m4[39m,
+      evidenceInPassage: [33mtrue[39m,
+      task: [36m[Object]
+[39m    },
+    {
+      id: [32m'q6'[39m,
+      kind: [32m'writing'[39m,
+      focus: [32m'summary'[39m,
+      choices: [33m0[39m,
+      evidenceInPassage: [33mfalse[39m,
+      task: [36m[Object]
+[39m    }
+  ]
+}
+[StudyJournal] question validation failed {
+  category: [32m'kanji'[39m,
+  questions: [
+    {
+      id: [32m'q1'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'comprehension'[39m,
+      prompt: [32m'JALとANAが羽田－岡山路線の出発時間を調整する主な目的は何ですか。'[39m,
+      choices: [36m[Array][39m,
+      correctChoice: [33m1[39m,
+      sampleAnswer: [32m''[39m,
+      explanation: [32m'本文の第3文に、この取り組みの目的は「国内の航空ネットワークを維持し、利便性を高めること」であると明記されています。'[39m,
+      evidence: [32m'国内の航空ネットワークを維持し、利便性を高めることが目的です。'[39m,
+      rubric: [32m'本文の内容に基づき、目的を正確に選択しているか。根拠となる記述と一致しているか。'[39m,
+      writingTask: [36m[Object]
+[39m    },
+    {
+      id: [32m'q2'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'comprehension'[39m,
+      prompt: [32m'今回の出発時間の調整によって、羽田－岡山間の便の間隔はどのようになると見込まれていますか。'[39m,
+      choices: [36m[Array][39m,
+      correctChoice: [33m2[39m,
+      sampleAnswer: [32m''[39m,
+      explanation: [32m'本文の第5文に「今回の調整により、羽田－岡山間では便の間隔が約一時間程度に広がり」と記されています。'[39m,
+      evidence: [32m'今回の調整により、羽田－岡山間では便の間隔が約一時間程度に広がり、乗客にとっての選択肢が増える見込みです。'[39m,
+      rubric: [32m'本文に記載された具体的な時間間隔の変化を正確に理解し、選択できているか。'[39m,
+      writingTask: [36m[Object]
+[39m    },
+    {
+      id: [32m'q3'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'comprehension'[39m,
+      prompt: [32m'企業同士が時間を合わせる調整について、本文ではどのように説明されていますか。'[39m,
+      choices: [36m[Array][39m,
+      correctChoice: [33m1[39m,
+      sampleAnswer: [32m''[39m,
+      explanation: [32m'本文の第4文に、通常は競争を妨げる恐れがあるものの、地方路線の維持が困難な場合には特例として認められることがあると説明されています。'[39m,
+      evidence: [32m'通常、企業同士が時間を合わせることは競争を妨げる恐れがありますが、地方路線の維持が困難な場合には、特例として認められることがあります。'[39m,
+      rubric: [32m'企業間の調整に関する条件と例外規定について、本文の記述通りに理解しているか。'[39m,
+      writingTask: [36m[Object]
+[39m    },
+    {
+      id: [32m'q4'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'reading'[39m,
+      prompt: [32m'本文の内容と一致するものはどれですか。'[39m,
+      choices: [36m[Array][39m,
+      correctChoice: [33m2[39m,
+      sampleAnswer: [32m''[39m,
+      explanation: [32m'本文の第2文に「これまでは、両社の飛行機がほぼ同じ時刻に出発する時間帯がありました」とあり、それを解消するための調整であることが述べられています。'[39m,
+      evidence: [32m'これまでは、両社の飛行機がほぼ同じ時刻に出発する時間帯がありましたが、今後は出発時刻をあえてずらすことで、利用者がより自由に時間を選べるようになります。'[39m,
+      rubric: [32m'本文の事実関係（時期、背景、経緯）を正しく読み取れているか。'[39m,
+      writingTask: [36m[Object]
+[39m    },
+    {
+      id: [32m'q5'[39m,
+      kind: [32m'choice'[39m,
+      focus: [32m'meaning'[39m,
+      prompt: [32m'本文中の「あえて」という言葉は、どのようなニュアンスで使われていますか。'[39m,
+      choices: [36m[Array][39m,
+      correctChoice: [33m1[39m,
+      sampleAnswer: [32m''[39m,
+      explanation: [32m'文脈上、利便性を高めるという目的のために、意図的に時刻をずらすことを指しています。'[39m,
+      evidence: [32m'今後は出発時刻をあえてずらすことで、利用者がより自由に時間を選べるようになります。'[39m,
+      rubric: [32m'文脈における副詞の意味を正しく理解し、適切な言い換えを選択できているか。'[39m,
+      writingTask: [36m[Object]
+[39m    },
+    {
+      id: [32m'q6'[39m,
+      kind: [32m'writing'[39m,
+      focus: [32m'summary'[39m,
+      prompt: [32m'今回のJALとANAによる取り組みの概要を、その目的を含めて40文字以上50文字以内の日本語でまとめなさい。'[39m,
+      choices: [],
+      correctChoice: [33m-1[39m,
+      sampleAnswer: [32m'利便性向上と路線維持のため、羽田－岡山便の出発時刻をずらし利用者の選択肢を増やす取り組み。（47文字）'[39m,
+      explanation: [32m'JALとANAが、利便性の向上と地方路線の維持を目的として、羽田－岡山路線の出発時刻を調整し、便の間隔を広げることをまとめる必要があります。'[39m,
+      evidence: [32m'国内の航空ネットワークを維持し、利便性を高めることが目的です。今回の調整により、羽田－岡山間では便の間隔が約一時間程度に広がり、乗客にとっての選択肢が増える見込みです。'[39m,
+      rubric: [32m'【内容】目的（利便性・路線維持）と手段（時刻調整・間隔拡大）が含まれているか。【証拠】本文の記述に基づいているか。【漢字・表現】適切な語彙と正しい漢字が使われているか。【指示】40〜50文字の範囲内か。'[39m,
+      writingTask: [36m[Object]
+[39m    }
+  ]
+}
+/home/ubuntu/tonan-study/server/studyJournalQuiz.ts:203
+    throw new Error("記事別の学習問題が不足しているため、もう一度生成してください");
+          ^
+Error: 記事別の学習問題が不足しているため、もう一度生成してください
+    at normalizeStudyJournalQuestions [90m(/home/ubuntu/tonan-study/[39mserver/studyJournalQuiz.ts:203:11[90m)
+[39m    at generateStudyJournalQuestions [90m(/home/ubuntu/tonan-study/[39mserver/studyJournal.ts:240:12[90m)
+[39m[90m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[39m    at async generateCompleteStudyJournal [90m(/home/ubuntu/tonan-study/[39mserver/studyJournal.ts:264:21[90m)
+[39m    at async main (/home/ubuntu/study_journal_flexible_writing_smoke.ts:13:17)
+Node.js v22.13.0
+[32mubuntu@sandbox:~/tonan-study$ [0m
